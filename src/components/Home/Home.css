@@ -1,0 +1,28 @@
+.main-section {
+  position: relative;
+  margin-bottom: 500px;
+}
+
+.main-section_left {
+  background-color: #f2a964;
+  height: 100vh;
+  opacity: 0.5;
+  position: absolute;
+  width: 50%;
+  margin: -110px 60px 0px 0px;
+  z-index: 0;
+}
+
+.main-section-desc {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1{
+  font-size: xxx-large;
+}

@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    display: flex;
+    list-style: none ;
+    justify-content: end;
+    margin:30px;
+}
+li{
+    margin: 10px;
+}

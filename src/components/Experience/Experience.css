@@ -1,0 +1,48 @@
+.experience_heading {
+  display: flex;
+  margin: 100px 50px 70px 200px;
+  background-color: #f8d4b1;
+  width: fit-content;
+  border-radius: 1rem;
+  padding: 0px 0.8rem;
+  font-size: xx-large;
+}
+.experience {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px 50px 0px 200px;
+}
+
+.experience-box{
+  display: flex;
+
+}
+
+.experience_bullet-orange {
+  background-color: #f2a964;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border-style: hidden;
+  margin:0px 10px 0px 70px ;
+}
+
+.experience_date{
+  color:#f2a964 ;
+}
+
+.experience_info_title{
+
+  font-size: 1.5rem;
+
+
+}
+
+.divider {
+  margin: "100px 300px 0px 200px";
+}
+
+.organize-div{
+  display: flex;
+  flex-direction: column;
+}

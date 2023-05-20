@@ -1,0 +1,25 @@
+mark{
+    background-color: #f8d4b1;
+}
+
+.about-me_heading{
+    font-size: xxx-large;
+}
+
+.about-box{
+display: flex;
+justify-content: center;
+margin: 0px 50px;
+
+}
+
+.about_me{
+    display: flex;
+}
+.info_container{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    /* margin-right: 80px; */
+}
+
