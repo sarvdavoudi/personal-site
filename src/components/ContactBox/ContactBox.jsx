@@ -2,7 +2,7 @@ import "./ContactBox.css";
 const ContactBox = () => {
   return (
     <>
-      <h1 className="heading">contact me !</h1>
+      <h1 className="heading" id="contact">contact me !</h1>
       <div className="contact-box">
         <div className="contact">
           {/* email icon */}
@@ -42,7 +42,7 @@ const ContactBox = () => {
               <g></g>
             </svg>
           </div>
-          <p>Email address</p>
+          <p className="email-title">Email address</p>
           <a title="SarvDavoudi@gmail.com" target="_blank" href="mailto: SarvDavoudi@gmail.com">
             SarvDavoudi@gmail.com
           </a>

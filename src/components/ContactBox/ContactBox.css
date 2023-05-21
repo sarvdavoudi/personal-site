@@ -2,7 +2,7 @@
   margin-top: 100px;
   font-size: xxx-large;
 }
-.contact-box{
+.contact-box {
   display: flex;
   justify-content: center;
 }
@@ -11,9 +11,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem ;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem;
   padding: 10px 0px;
-  width: 400px;
+  width: 360px;
+  height: 207px;
+}
+
+.email_title{
+  font-size: x-large;
 }
 
 h1 {

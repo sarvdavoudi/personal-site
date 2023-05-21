@@ -3,10 +3,12 @@ const Header = () => {
   return (
     <header>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>resume</li>
-        <li>Contact</li>
+       
+        <a href="#"><li>Home</li></a>
+        <a href="#about-me"><li>About</li></a>
+        <a href="#resume"><li>Resume</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      
       </ul>
     </header>
   );

@@ -9,7 +9,7 @@
   opacity: 0.5;
   position: absolute;
   width: 50%;
-  margin: -110px 60px 0px 0px;
+  margin: -105px 60px 0px 0px;
   z-index: 0;
 }
 
@@ -25,4 +25,8 @@
 
 h1{
   font-size: xxx-large;
+}
+
+a{
+  text-decoration: none;
 }
