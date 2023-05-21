@@ -1,4 +1,4 @@
-.skills_heading {
+.skills__heading {
   display: flex;
   margin: 100px 50px 70px 200px;
   background-color: #f8d4b1;
@@ -7,14 +7,14 @@
   padding: 0px 0.8rem;
   font-size: xx-large;
 }
-.key-skills {
+.skills {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px 50px;
 }
 
-.skill-box {
+.skills__container {
   background-color: #f1a863;
   align-items: center;
   display: flex;
@@ -25,7 +25,7 @@
   width: 800px;
 }
 
-.skills {
+.skills__key {
   display: flex;
   justify-content: center;
   width: 100%;

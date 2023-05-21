@@ -4,10 +4,10 @@ import "./KeySkills.css";
 const KeySkills = () => {
   return (
     <>
-      <h1 className="skills_heading">Key Skills</h1>
-      <div className="key-skills">
-        <div className="skill-box">
-          <div className="skills">
+      <h1 className="skills__heading">Key Skills</h1>
+      <div className="skills">
+        <div className="skills__container">
+          <div className="skills__key">
             <Button>React.js</Button>
             <Button>Next.js </Button>
             <Button>CRA Framework</Button>

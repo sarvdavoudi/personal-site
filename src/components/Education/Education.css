@@ -1,4 +1,4 @@
-.education_heading {
+.education__heading {
   display: flex;
   margin: 100px 50px 70px 200px;
   background-color: #f8d4b1;
@@ -13,11 +13,11 @@
   margin: 0px 50px 0px 200px;
 }
 
-.education-box {
+.education__container {
   display: flex;
 }
 
-.education_bullet-orange {
+.education--bullet-orange {
   background-color: #f2a964;
   width: 40px;
   height: 40px;
@@ -26,18 +26,17 @@
   margin: 0px 10px 0px 70px;
 }
 
-.education_date {
-  color: #f2a964;
-}
-
-.education_info_title {
-  font-size: 1.5rem;
-}
-
 .organize-div {
   display: flex;
   flex-direction: column;
 }
-.divider {
+.education__info--title {
+  font-size: 1.5rem;
+}
+.education__date {
+  color: #f2a964;
+}
+
+.divider-line {
   margin: "100px 300px 0px 200px";
 }

@@ -1,9 +1,16 @@
+a {
+  text-decoration: none;
+}
+.main-section__desc-name {
+  font-size: xxx-large;
+}
+
 .main-section {
   position: relative;
   margin-bottom: 500px;
 }
 
-.main-section_left {
+.main-section__left {
   background-color: #f2a964;
   height: 100vh;
   opacity: 0.5;
@@ -13,20 +20,11 @@
   z-index: 0;
 }
 
-.main-section-desc {
+.main-section__desc {
   position: relative;
   z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-
-h1{
-  font-size: xxx-large;
-}
-
-a{
-  text-decoration: none;
 }

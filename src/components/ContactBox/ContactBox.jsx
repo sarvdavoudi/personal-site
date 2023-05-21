@@ -2,11 +2,13 @@ import "./ContactBox.css";
 const ContactBox = () => {
   return (
     <>
-      <h1 className="heading" id="contact">contact me !</h1>
-      <div className="contact-box">
-        <div className="contact">
+      <h1 className="contact__heading" id="contact">
+        contact me !
+      </h1>
+      <div className="contact">
+        <div className="contact__container">
           {/* email icon */}
-          <div className="email_icon">
+          <div className="contact__email-icon">
             <svg
               version="1.1"
               id="Layer_1"
@@ -42,7 +44,7 @@ const ContactBox = () => {
               <g></g>
             </svg>
           </div>
-          <p className="email-title">Email address</p>
+          <p className="contact__email-title">Email address</p>
           <a title="SarvDavoudi@gmail.com" target="_blank" href="mailto: SarvDavoudi@gmail.com">
             SarvDavoudi@gmail.com
           </a>

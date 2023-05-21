@@ -2,21 +2,22 @@ mark{
     background-color: #f8d4b1;
 }
 
-.about-me_heading{
+.about__heading{
     font-size: xxx-large;
 }
 
-.about-me{
+.about{
 display: flex;
 justify-content: center;
 margin: 0px 50px;
 
 }
 
-.about_me{
+.about-container{
     display: flex;
 }
-.info_container{
+
+.about__info{
     display: flex;
     align-items: center;
     font-size: x-large;

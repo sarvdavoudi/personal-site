@@ -1,4 +1,4 @@
-.experience_heading {
+.experience__heading {
   display: flex;
   margin: 100px 50px 70px 200px;
   background-color: #f8d4b1;
@@ -13,36 +13,32 @@
   margin: 0px 50px 0px 200px;
 }
 
-.experience-box{
+.experience__container {
   display: flex;
-
 }
 
-.experience_bullet-orange {
+.experience--bullet-orange {
   background-color: #f2a964;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   border-style: hidden;
-  margin:0px 10px 0px 70px ;
+  margin: 0px 10px 0px 70px;
 }
 
-.experience_date{
-  color:#f2a964 ;
-}
-
-.experience_info_title{
-
-  font-size: 1.5rem;
-
-
-}
-
-.divider {
-  margin: "100px 300px 0px 200px";
-}
-
-.organize-div{
+.organize-div {
   display: flex;
   flex-direction: column;
+}
+
+.experience__date {
+  color: #f2a964;
+}
+
+.experience__info--title {
+  font-size: 1.5rem;
+}
+
+.divider-line {
+  margin: "100px 300px 0px 200px";
 }
