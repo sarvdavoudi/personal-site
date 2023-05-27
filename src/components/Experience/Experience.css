@@ -1,7 +1,7 @@
 .experience__heading {
   display: flex;
   margin: 100px 50px 70px 200px;
-  background-color: #f8d4b1;
+  background-color:var(--secondary-color);
   width: fit-content;
   border-radius: 1rem;
   padding: 0px 0.8rem;
@@ -18,7 +18,7 @@
 }
 
 .experience--bullet-orange {
-  background-color: #f2a964;
+  background-color: var(--primary-color);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -32,7 +32,7 @@
 }
 
 .experience__date {
-  color: #f2a964;
+  color:var(--primary-color);
 }
 
 .experience__info--title {

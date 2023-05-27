@@ -1,6 +1,6 @@
 footer {
   margin-top: 80px;
-  background-color: #f2a964;
+  background-color: var(--primary-color);
   opacity: 0.5;
   font-weight: 600;
   height: 30px;

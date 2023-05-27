@@ -1,5 +1,5 @@
 mark{
-    background-color: #f8d4b1;
+    background-color: var(--secondary-color);
 }
 
 .about__heading{
@@ -30,8 +30,8 @@ button{
         padding: 1px 6px;
         border-width: 2px;
         border-style: outset;
-        border-color: buttonborder;
+        /* border-color: buttonborder; */
         border-image: initial;
-        background-color: aqua;
+        background-color: var(--primary-color);
 }
 

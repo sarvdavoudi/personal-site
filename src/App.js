@@ -8,6 +8,7 @@ import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
 import KeySkills from "./components/KeySkills/KeySkills";
 import ContactBox from "./components/ContactBox/ContactBox";
+import "../src/style/style.css"
 
 function App() {
   return (
