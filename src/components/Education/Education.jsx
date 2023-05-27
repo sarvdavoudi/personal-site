@@ -11,7 +11,7 @@ const Education = () => {
             <div className="education__date">2020-2023,Tehran, Iran</div>
             <div className="education__info">
               <p className="education__info--title">Master of computer engineering</p>
-              <p className="education__info--desc">software branch in Malek Ashtar university </p>
+              <p className="education__info--desc">software branch at Malek Ashtar university </p>
             </div>
           </div>
         </div>

@@ -14,11 +14,11 @@ const AboutMe = () => {
           </div>
           <div className="about__info">
             <p>
-              I am a <mark>front-end developer</mark> with a strong academic background in <mark>software engineering</mark>.A competitive and
-              hard-working person, interested in solving challenging problems that people around her say add creativity to tasks. Previously, in the
-              position of a software testing expert, I realized that I was not interested in finding faults and insisting on them. But I love creating
-              a product that I can help grow, so I came to front-end programming, a position where I can put the positive impact of my product on the
-              user's mind at first glance and attract him to interact more with my product.
+              I am a <mark>front-end developer</mark> with a strong academic background in <mark>software engineering</mark>. I'm a competitive and
+              hardworking individual who enjoys solving challenging problems with a creative touch, as I've heard of people around me. I previously
+              worked as a software testing specialist but found my passion in front-end programming . I am interested in creating a product that I can
+              contribute to its growth, a position where I can put the positive impact of my product on the user's mind at first glance and encourage
+              them to interact more with my product.
               {/* <div><button>My Resume</button></div> */}
               <div className="about__social-networks">
                 {/* github svg */}
