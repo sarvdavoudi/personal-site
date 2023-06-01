@@ -1,8 +1,11 @@
 
-
-ul{
-    display: flex;
-    list-style: none ;
-    justify-content: end;
-    margin:30px;
+@media screen and (min-width:960px) {
+    
+    ul{
+        display: flex;
+        list-style: none ;
+        justify-content: end;
+        margin:30px;
+    }
 }
+
