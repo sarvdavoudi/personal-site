@@ -1,10 +1,87 @@
+/* mobile */
+@media screen and (max-width: 600px) {
+  .skills__heading {
+    display: flex;
+    margin: 100px 50px 70px 20px;
+    background-color: #f8d4b1;
+    width: fit-content;
+    border-radius: 1rem;
+    padding: 0px 0.8rem;
+    font-size: xx-large;
+  }
 
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+  }
 
+  .skills__container {
+    background-color: #f1a863;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    height: 800px;
+    width: 800px;
+  }
 
+  .skills__key {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: -webkit-inline-box;
+    margin: 0px 30px;
+    text-align: center;
+  }
+}
+
+/* *********************************************** */
+/* tablet */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .skills__heading {
+    display: flex;
+    margin: 100px 50px 70px 20px;
+    background-color: #f8d4b1;
+    width: fit-content;
+    border-radius: 1rem;
+    padding: 0px 0.8rem;
+    font-size: xx-large;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 50px;
+  }
+
+  .skills__container {
+    background-color: #f1a863;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    height: 400px;
+    width: 800px;
+  }
+
+  .skills__key {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: -webkit-inline-box;
+    margin: 0px 30px;
+    text-align: center;
+  }
+}
+
+/* ************************************************ */
 /* desktop */
-@media screen and (min-width:960px) {
-  
-  
+@media screen and (min-width: 900px) {
   .skills__heading {
     display: flex;
     margin: 100px 50px 70px 200px;
@@ -20,7 +97,7 @@
     align-items: center;
     margin: 0px 50px;
   }
-  
+
   .skills__container {
     background-color: #f1a863;
     align-items: center;
@@ -31,7 +108,7 @@
     height: 300px;
     width: 800px;
   }
-  
+
   .skills__key {
     display: flex;
     justify-content: center;
@@ -41,4 +118,3 @@
     text-align: center;
   }
 }
-

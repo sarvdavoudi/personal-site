@@ -14,6 +14,7 @@ const Experience = () => {
             <div className="experience__date">March 2022 - October 2022, Tehran, Iran</div>
             <div className="experience__info">
               <p className="experience__info--title">Software testing expert in Chargoon </p>
+             
               <p className="experience__info--desc">
                 Chargoon is a company that provides a set of integrated and localized software in the field of administrative, financial and logistics
                 automation.{" "}

@@ -9,8 +9,8 @@ const AboutMe = () => {
       </h1>
       <div className="about">
         <div className="about-container">
-          <div className="about__image">
-            <img src={pic} style={{ width: "500px" }} />
+          <div className="about__image-div">
+            <img className="about__image" src={pic}  />
           </div>
           <div className="about__info">
             <p>

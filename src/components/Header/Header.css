@@ -1,11 +1,25 @@
-
-@media screen and (min-width:960px) {
-    
-    ul{
-        display: flex;
-        list-style: none ;
-        justify-content: end;
-        margin:30px;
-    }
+/* mobile */
+@media screen and (max-width: 600px) {
+  ul {
+    display: none;
+  }
 }
 
+/* ********************************** */
+/* tablet */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  ul {
+    display: none;
+  }
+}
+
+/* ************************************ */
+/* desktop */
+@media screen and (min-width: 900px) {
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin: 30px;
+  }
+}

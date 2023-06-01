@@ -1,7 +1,9 @@
+import NavComponent from "../NavComponent/NavComponent";
 import "./Header.css";
 const Header = () => {
   return (
     <header>
+      {/* <NavComponent/> */}
       <ul>
        
         <a href="#home"><li id="home">Home</li></a>
