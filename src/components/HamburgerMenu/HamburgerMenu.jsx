@@ -16,10 +16,10 @@ const HamburgerMenu = () => {
       </button>
 
       <ul className={`menu ${isOpen ? 'open' : ''}`}>
-        <li><a href="#home">home</a></li>
-        <li><a href="#about-me"></a> About</li>
-        <li><a href="#resume"></a> resume</li>
-        <li><a href="#contact"></a> contact</li>
+        <a href="#home"><li id='home'>home</li></a>
+        <a href="#about-me"><li >About</li></a>
+        <a href="#resume"><li >resume</li></a>
+        <a href="#contact"><li >contact</li></a>
        
       </ul>
 
