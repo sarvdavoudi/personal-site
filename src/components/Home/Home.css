@@ -7,13 +7,14 @@ a {
 
 .main-section {
   position: relative;
-  margin-bottom: 500px;
+
+  background-color: var(--secondary-color);
+  height: 600px;
 }
 
 .main-section__left {
   background-color: var(--secondary-color);
   height: 100vh;
-  /* opacity: 0.5; */
   position: absolute;
   width: 50%;
   margin: -105px 60px 0px 0px;

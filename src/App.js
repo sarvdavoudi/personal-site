@@ -8,13 +8,16 @@ import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
 import KeySkills from "./components/KeySkills/KeySkills";
 import ContactBox from "./components/ContactBox/ContactBox";
-import "../src/style/style.css"
+import "../src/style/style.css";
+import HamburgerMenu from "./components/HamburgerMenu/HamburgerMenu";
 
 function App() {
   return (
     <div className="App">
       <container>
-        <Header />
+        <HamburgerMenu />
+
+        {/* <Header /> */}
         <Home />
         <AboutMe />
         <Experience />

@@ -24,8 +24,9 @@
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 5px;
-    height: 800px;
+    height: 300px;
     width: 800px;
+    overflow: auto;
   }
 
   .skills__key {
@@ -65,8 +66,9 @@
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 5px;
-    height: 400px;
+    height: 300px;
     width: 800px;
+    overflow: auto;
   }
 
   .skills__key {

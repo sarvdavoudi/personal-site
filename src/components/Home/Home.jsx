@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 const home = () => {
   return (
     <div className="main-section" >
-      <div className="main-section__left"> </div>
+      {/* <div className="main-section__left"> </div> */}
       <div className="main-section__desc">
         <h3>Hey ! I Am</h3>
         <h1 className="main-section__desc-name">Sarvenaz Aghadavoudi</h1>
