@@ -34,6 +34,15 @@ function App() {
           </a>
         </button>
       </container>
+      <style>
+        {`
+      .scroll-to-top{
+
+      transition: opacity 0.3s;
+      }
+      
+      `}
+      </style>
     </div>
   );
 }
